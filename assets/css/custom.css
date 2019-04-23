@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+body {
+    border: 10px solid #F91C4C;
+}
+
+body,
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.oct-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold
+}
+
+.shape-background {
+    background: url(../img/ejoya/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.bg-ejoya {
+    background: linear-gradient(-315deg, #45f9e5, #f4265f, #fbd249);
+    border: 0px;
+    border-radius: 0px;
+}
+
+.btn-sign {
+    color: white;
+    border-color: white;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.head-input {
+    background: transparent;
+    height: 41px;
+    border-radius: 0px;
+    border-right: 0px;
+    width: 290px !important;
+    border-color: #ffffff47;
+}
+
+.head-input:focus {
+    background: transparent;
+}
+
+.bg-upload {
+    background: linear-gradient(75deg, #F4265F 0, #FBD969 100%) !important;
+}
+
+.bg-cheer {
+    background: linear-gradient(75deg, #F4265F 0, #4CEFDF 100%) !important;
+}
+
+.bg-paid {
+    background: linear-gradient(75deg, #FBC05A 0, #4CEFDF 100%) !important;
+}
+
+.bg-sign {
+    background: url(../img/ejoya/sign-bg.png);
+}
+
+.text-black {
+    color: black;
+}
+
+.distr {
+    margin: 0 auto;
+}
+
+.distr input {
+    background: white;
+    height: 41px;
+    border-radius: 0px;
+    border-right: 0px;
+    width: 290px !important;
+    border-color: #ffffff47;
+}
+
+.logo-footer {
+    width: 90px;
+}
+
+.footer-txt {
+    font-size: 12px;
+}
+
+.bg-black {
+    background: black
+}
+
+.headroom--not-top {
+    background: black !important;
+}
+
+.text-opa {
+    color: #ffffff91;
+}
+
+.bg-ejoya-outline {
+    background: transparent;
+    border: 2px solid;
+    border-radius: 0px;
+}
+
+.bg-ejoya-outline:hover {
+    background: white;
+    border-color: white;
+    color: black;
+}
+
+.navbar-brand img {
+    height: 20px;
+}
+
+.loading {
+    width: 30px;
+}
+
+.sixem {
+    font-size: 6em;
+}
+
+.line-2 {
+    line-height: 2;
+}
+
+.comm-link:hover {
+    color: #F91C4C;
+}
+
+.comm-link {
+    color: #F91C4C;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.sec-bottom {
+    border-bottom: 11px solid #F91C4C;
+}
+
+.text-theme {
+    color: #F91C4C;
+}
+
+.comm-txt {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 11px;
+    font-size: 26px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    margin-right: 25px;
+}
+
+.work-exp {
+    margin-top: 140px;
+}
+.work-sec .role{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+.work-sec .duration{
+    color: #ffffff52;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+.work-head{
+    margin-bottom: 100px;
+}
+.portfolio{
+    margin-top: 200px;
+}
+.skill-ty{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+.bg-theme{
+    background: #F91C4C;
+}
+.ready-pos{
+    position: relative;
+}
+.ready-pos .ready{
+    z-index: 9999;
+}
+.ready-pos .you{
+    position: absolute;
+    top: -70px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14em;
+    color: #00000024;
+}
+
+.comm-form .form-control{
+    color: white;
+    padding: 23px 0px;
+    margin-bottom: 20px;
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 2px solid #00000040;
+}
+.comm-form .form-control:focus{
+    color: white;
+    background: transparent;
+}
+
+.comm-form .form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+}
+.comm-form .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: white;
+   opacity:  1;
+}
+.comm-form .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: white;
+   opacity:  1;
+}
+.comm-form .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+}
+.comm-form .form-control::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+}
+
+.comm-form .form-control::placeholder { /* Most modern browsers support this now. */
+   color: white;
+}
+
+.glitch {
+    color: white;
+    font-size: 100px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  @keyframes noise-anim {
+    0% {
+      clip: rect(97px, 9999px, 35px, 0);
+    }
+    5% {
+      clip: rect(40px, 9999px, 14px, 0);
+    }
+    10% {
+      clip: rect(50px, 9999px, 70px, 0);
+    }
+    15% {
+      clip: rect(11px, 9999px, 7px, 0);
+    }
+    20% {
+      clip: rect(86px, 9999px, 59px, 0);
+    }
+    25% {
+      clip: rect(7px, 9999px, 27px, 0);
+    }
+    30% {
+      clip: rect(53px, 9999px, 62px, 0);
+    }
+    35% {
+      clip: rect(25px, 9999px, 15px, 0);
+    }
+    40% {
+      clip: rect(83px, 9999px, 59px, 0);
+    }
+    45% {
+      clip: rect(70px, 9999px, 51px, 0);
+    }
+    50% {
+      clip: rect(26px, 9999px, 87px, 0);
+    }
+    55% {
+      clip: rect(79px, 9999px, 3px, 0);
+    }
+    60% {
+      clip: rect(1px, 9999px, 42px, 0);
+    }
+    65% {
+      clip: rect(21px, 9999px, 98px, 0);
+    }
+    70% {
+      clip: rect(10px, 9999px, 85px, 0);
+    }
+    75% {
+      clip: rect(49px, 9999px, 72px, 0);
+    }
+    80% {
+      clip: rect(55px, 9999px, 59px, 0);
+    }
+    85% {
+      clip: rect(97px, 9999px, 63px, 0);
+    }
+    90% {
+      clip: rect(45px, 9999px, 39px, 0);
+    }
+    95% {
+      clip: rect(36px, 9999px, 33px, 0);
+    }
+    100% {
+      clip: rect(51px, 9999px, 32px, 0);
+    }
+  }
+  .glitch:after {
+    content: attr(data-text);
+    position: absolute;
+    left: 2px;
+    text-shadow: -1px 0 red;
+    top: 0;
+    color: white;
+    background: black;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim 2s infinite linear alternate-reverse;
+  }
+  
+  @keyframes noise-anim-2 {
+    0% {
+      clip: rect(25px, 9999px, 18px, 0);
+    }
+    5% {
+      clip: rect(32px, 9999px, 42px, 0);
+    }
+    10% {
+      clip: rect(4px, 9999px, 72px, 0);
+    }
+    15% {
+      clip: rect(84px, 9999px, 43px, 0);
+    }
+    20% {
+      clip: rect(60px, 9999px, 92px, 0);
+    }
+    25% {
+      clip: rect(58px, 9999px, 36px, 0);
+    }
+    30% {
+      clip: rect(4px, 9999px, 1px, 0);
+    }
+    35% {
+      clip: rect(16px, 9999px, 93px, 0);
+    }
+    40% {
+      clip: rect(74px, 9999px, 31px, 0);
+    }
+    45% {
+      clip: rect(43px, 9999px, 72px, 0);
+    }
+    50% {
+      clip: rect(51px, 9999px, 37px, 0);
+    }
+    55% {
+      clip: rect(97px, 9999px, 67px, 0);
+    }
+    60% {
+      clip: rect(54px, 9999px, 99px, 0);
+    }
+    65% {
+      clip: rect(36px, 9999px, 53px, 0);
+    }
+    70% {
+      clip: rect(9px, 9999px, 42px, 0);
+    }
+    75% {
+      clip: rect(75px, 9999px, 44px, 0);
+    }
+    80% {
+      clip: rect(23px, 9999px, 11px, 0);
+    }
+    85% {
+      clip: rect(51px, 9999px, 57px, 0);
+    }
+    90% {
+      clip: rect(96px, 9999px, 46px, 0);
+    }
+    95% {
+      clip: rect(10px, 9999px, 99px, 0);
+    }
+    100% {
+      clip: rect(96px, 9999px, 66px, 0);
+    }
+  }
+  .glitch:before {
+    content: attr(data-text);
+    position: absolute;
+    left: -2px;
+    text-shadow: 1px 0 blue;
+    top: 0;
+    color: white;
+    background: black;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim-2 3s infinite linear alternate-reverse;
+  }
+  View SCSS Code
+  Resources
