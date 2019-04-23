@@ -252,10 +252,10 @@ html {
 
 @media only screen and (min-width: 640px) and (max-width: 767px) {
     .ready-pos .you{
-        font-size: 6em;
+        font-size: 6em!important;
     }
     .sixem {
-        font-size: 4em;
+        font-size: 4em!important;
     }
 }
 
