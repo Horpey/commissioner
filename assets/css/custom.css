@@ -250,6 +250,15 @@ html {
    color: white;
 }
 
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+    .ready-pos .you{
+        font-size: 6em;
+    }
+    .sixem {
+        font-size: 4em;
+    }
+}
+
 .glitch {
     color: white;
     font-size: 100px;
