@@ -255,7 +255,8 @@ html {
         font-size: 6em!important;
     }
     .sixem {
-        font-size: 4em!important;
+        font-size: 3.4em!important;
+        line-height: 1;
     }
 }
 
